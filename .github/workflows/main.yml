@@ -22,7 +22,7 @@ jobs:
                       const welcomeMessage = `
                         Hi @${issueAuthor}! :wave:
 
-                        Thank you for creating an issue in our repository! We appreciate your contribution and will get back to you as soon as possible.
+                        Thanks for the new issue. Welcome our Contribution
                       `;
 
                       github.rest.issues.createComment({
@@ -42,7 +42,7 @@ jobs:
                       const welcomeMessage = `
                         Hi @${prAuthor}! :wave:
 
-                         We appreciate your contribution and will review your changes as soon as possible.
+                         We appreciate your contribution.
                       `;
 
                       github.rest.issues.createComment({
