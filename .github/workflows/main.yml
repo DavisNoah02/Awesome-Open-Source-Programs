@@ -9,7 +9,7 @@ on:
 jobs:
  welcome:
   runs-on: ubuntu-latest
-    steps:
+  steps :
             - name: Welcome Issue
               if: github.event_name == 'issues'
               uses: actions/github-script@v5
